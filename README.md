@@ -33,6 +33,10 @@ dependencies
 
 `cd rmf-web/packages/dashboard`
 
+`source /ros_entrypoint.sh`
+
+`echo ROS_DOMAIN_ID=9`
+
 `pnpm start`
 
 from the new host terminal window 
