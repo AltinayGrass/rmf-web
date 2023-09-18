@@ -9,7 +9,7 @@ get docker
 
 start docker with x11 gui support
 
-`start-docker-host.sh rmf:latest rmf-web true`
+`start-docker-host.sh rmf-web rmf:latest true`
 
 adding rmf-web source
 
