@@ -5,7 +5,7 @@ start docker
 
 `start-docker-host.sh rmf-web`
 
-`cd /rmf-web/packages/dashboard`
+`cd rmf-web/packages/dashboard`
 
 `source /ros_entrypoint.sh`
 
