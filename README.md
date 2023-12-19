@@ -25,17 +25,21 @@ adding rmf-web source
 
 `curl -fsSL https://get.pnpm.io/install.sh | bash -`
 
+`source /root/.bashrc`
+
+`cd /rmf-web`
+
 `pnpm env use --global 16`
 
 dependencies
 
 `pnpm install` 
 
-`cd rmf-web/packages/dashboard`
+`cd /packages/dashboard`
 
 `source /ros_entrypoint.sh`
 
-`echo ROS_DOMAIN_ID=9`
+`ROS_DOMAIN_ID=7`
 
 `pnpm start`
 
@@ -45,7 +49,7 @@ from the new host terminal window
 
 `source /ros_entrypoint.sh`
 
-`echo ROS_DOMAIN_ID=9`
+`ROS_DOMAIN_ID=7`
 
 `ros2 launch rmf_demos_gz office.launch.xml server_uri:="http://localhost:8000/_internal"`
 
