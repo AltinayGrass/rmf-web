@@ -41,7 +41,7 @@ adding rmf-web source
 
 `source /root/.bashrc`
 
-`cd /rmf-web`
+`cd rmf-web`
 
 `pnpm env use --global 16`
 
@@ -49,7 +49,7 @@ dependencies
 
 `pnpm install` 
 
-`cd /packages/dashboard`
+`cd packages/dashboard`
 
 `source /ros_entrypoint.sh`
 
