@@ -1,7 +1,17 @@
 # rmf-web
-using rmf and rmf-web in one docker container
+using rmf and rmf-web in one docker container 
 
-get docker
+start docker
+
+`start-docker-host.sh rmf-web`
+`cd /rmf-web/packages/dashboard`
+`source /ros_entrypoint.sh`
+`ROS_DOMAIN_ID=7`
+`pnpm start`
+
+goto jump0:
+
+if not container exist get docker
 
 `docker pull ghcr.io/open-rmf/rmf/rmf_demos:latest` 
 
@@ -42,6 +52,8 @@ dependencies
 `ROS_DOMAIN_ID=7`
 
 `pnpm start`
+
+jump0:
 
 from the new host terminal window 
 
